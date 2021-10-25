@@ -1,5 +1,5 @@
 from selenium import webdriver
-import geckodriver_autoinstaller
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.by import By
@@ -7,16 +7,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Firefox selenium settings.
-# geckodriver_autoinstaller.install()
-# profile = webdriver.FirefoxProfile('/home/gibi/.mozilla/firefox/rvbevz2f.default')
-# profile.set_preference("dom.webdriver.enabled", False)
-# profile.set_preference('useAutomationExtension', False)
-# profile.update_preferences()
-# desired = DesiredCapabilities.FIREFOX
-# driver = webdriver.Firefox(firefox_profile=profile, desired_capabilities=desired)
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+# driver = webdriver.Chrome(CHROMEDRIVER_PATH, chrome_options=options)
 
-driver = webdriver.Chrome("/home/gibi/PycharmProjects/kaplan/chromedriver")
+driver = webdriver.Chrome("/home/gibi/PycharmProjects/kaplan/chromedriver", chrome_options=options)
 
 url = "https://www.kaplanpathways.com/degree-finder/#/search-result?status=1&prefer-study=1&institution_short_name" \
       "=Arizona-State-University-Downtown-Phoenix-Campus&institution_short_name=Arizona-State-University-Lake-Havasu" \
@@ -48,15 +44,22 @@ except:
 # Get complete course list
 course_list = driver.find_elements_by_xpath("//*[@class='wrap-result'][1]")
 
+# loop through each course
 for course in course_list:
     try:
-        time.sleep(5)
+        time.sleep(2)
+        # Scroll to each element to get the trigger
         actions = ActionChains(driver)
         actions.move_to_element(course).perform()
+        # click in the course to expand
         course.click()
         c_name = course.find_element_by_xpath('./div/div/p[2]').text
+        u_name = course.find_element_by_xpath('./div/div/p[2]').text
+        college = driver.find_element_by_xpath('//*[@class="degree-info"]/p/span').text
+
         print(c_name)
 
+        # Click on the course again to close it.
         course.click()
     except:
         print("⛑ Element is not clickable ")

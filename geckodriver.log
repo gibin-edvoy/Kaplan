@@ -1,0 +1,176 @@
+1635153796656	geckodriver	INFO	Listening on 127.0.0.1:46673
+1635153797670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQ2n1vl"
+1635153798757	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ2n1vl/search.json.mozlz4", (void 0)))
+1635153800483	Marionette	INFO	Listening on port 35363
+1635153800602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.477: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.477: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.478: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.478: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.478: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.478: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-WARNING **: 14:53:36.513: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f56fe6c2590' of type 'MaiAtkType139'
+
+(firefox:14710): GLib-GObject-WARNING **: 14:53:36.513: ../../../gobject/gsignal.c:3600: signal name 'load_complete' is invalid for instance '0x7f56fe6c25f0' of type 'MaiAtkType139'
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.553: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:36.593: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplan-gutenberg-blocks/build/style-index.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/foundation.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/owl.carousel.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/owl.theme.default.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/jquery-ui.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css?family=Noto+Sans&ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/templates/page-template-full-width-blue-bar.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/tablepress/css/default.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css?family=Noto%20Sans without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/css/dgf_main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/css/dgf-angular-dist.min.css?ver=b36bf9d without a browsingContextID set
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:53:49.009: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1635153881251	geckodriver	INFO	Listening on 127.0.0.1:44407
+1635153882272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileMSehV6"
+1635153882960	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMSehV6/search.json.mozlz4", (void 0)))
+1635153884009	Marionette	INFO	Listening on port 36591
+1635153884091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+1635153905943	Marionette	INFO	Stopped listening on port 36591
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+
+(firefox:14710): GLib-GObject-CRITICAL **: 14:56:29.992: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplan-gutenberg-blocks/build/style-index.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/foundation.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/owl.carousel.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/owl.theme.default.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/jquery-ui.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css?family=Noto+Sans&ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/themes/kaplankihe/pub/assets/css/templates/page-template-full-width-blue-bar.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/tablepress/css/default.min.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css?family=Noto%20Sans without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/css/dgf_main.css?ver=b36bf9d without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/css/dgf-angular-dist.min.css?ver=b36bf9d without a browsingContextID set
+1635154116154	geckodriver	INFO	Listening on 127.0.0.1:59589
+1635154117178	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile8upMcl"
+1635154117869	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8upMcl/search.json.mozlz4", (void 0)))
+1635154118934	Marionette	INFO	Listening on port 34043
+1635154118998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+1635154135879	Marionette	INFO	Stopped listening on port 34043
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635154159295	geckodriver	INFO	Listening on 127.0.0.1:42935
+1635154160319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyGFksK"
+1635154161013	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyGFksK/search.json.mozlz4", (void 0)))
+1635154162098	Marionette	INFO	Listening on port 46537
+1635154162138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1635154279031	geckodriver	INFO	Listening on 127.0.0.1:37447
+1635154279053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileRUypHT"
+1635154279748	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRUypHT/search.json.mozlz4", (void 0)))
+1635154280759	Marionette	INFO	Listening on port 41695
+1635154280872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+1635154411664	geckodriver	INFO	Listening on 127.0.0.1:43527
+1635154412683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileSeLLm2"
+1635154413370	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSeLLm2/search.json.mozlz4", (void 0)))
+1635154414412	Marionette	INFO	Listening on port 44921
+1635154414502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1635154650232	Marionette	INFO	Stopped listening on port 41695
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635154651600	Marionette	INFO	Stopped listening on port 44921
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1635154653587	Marionette	INFO	Stopped listening on port 46537
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635154796470	Marionette	INFO	Stopped listening on port 35363
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1635154833815	geckodriver	INFO	Listening on 127.0.0.1:58389
+1635154834838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefxV4aA"
+1635154835543	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefxV4aA/search.json.mozlz4", (void 0)))
+1635154836812	Marionette	INFO	Listening on port 46511
+1635154836921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+1635155080957	geckodriver	INFO	Listening on 127.0.0.1:38871
+1635155081975	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileuUE7VF"
+1635155082673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuUE7VF/search.json.mozlz4", (void 0)))
+1635155083815	Marionette	INFO	Listening on port 40153
+1635155083896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635155085655	Marionette	INFO	Stopped listening on port 40153
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1635155090673	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1635155093905	geckodriver	INFO	Listening on 127.0.0.1:55253
+1635155094928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUNb8RF"
+1635155095601	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUNb8RF/search.json.mozlz4", (void 0)))
+1635155096727	Marionette	INFO	Listening on port 43277
+1635155096754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.kaplanpathways.com/wp-content/plugins/kaplandegreefinder/degreeFinderApp/pub/assets/js/min/dgf_local.min.js?ver=b36bf9d, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1635155698666	Marionette	INFO	Stopped listening on port 43277
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1635155703417	Marionette	INFO	Stopped listening on port 46511
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

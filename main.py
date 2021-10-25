@@ -53,6 +53,7 @@ intakes = ""
 fee = ""
 # loop through each course
 i = 1
+k = 0
 for course in course_list:
     try:
         print("Current check: ", i)
@@ -81,10 +82,14 @@ for course in course_list:
                 fee = info.find_element_by_tag_name("span").text
 
         list_intakes = intakes.split(",")
-        j = 0
+        # j = 0
+
         for split_intake in list_intakes:
+            k += 1
+            print(i+k)
             curr_iter = {}
-            curr_iter["ID"] = j
+
+            curr_iter["ID"] = k
             curr_iter["Course name"] = c_name
             curr_iter["uni"] = u_name
             curr_iter["Source_url"] = source_url
@@ -95,8 +100,8 @@ for course in course_list:
 
             print(curr_iter)
 
-            to_excel[i + j] = curr_iter
-            j += 1
+            to_excel[i + k] = curr_iter
+            # j += 1
 
         # print("c_name: ", c_name)
         # print("u_name: ", u_name)
@@ -113,9 +118,12 @@ for course in course_list:
     except Exception as e:
         print(e)
 
-df = pd.DataFrame(to_excel, columns="")
-print(df)
+df = pd.DataFrame(to_excel)
+df1 = df.transpose()
+print(df1)
 
 writer = pd.ExcelWriter("dataframe.xlsx", engine='xlsxwriter')
-df.to_excel(writer, sheet_name="Kaplan")
+df1.to_excel(writer, sheet_name="Kaplan", index=False)
 writer.save()
+
+driver.close()

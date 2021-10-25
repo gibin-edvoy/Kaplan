@@ -7,16 +7,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-options = Options()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+# options = Options()
+# options.add_argument('--headless')
+# options.add_argument('--disable-gpu')  # Last I checked this was necessary.
 # driver = webdriver.Chrome(CHROMEDRIVER_PATH, chrome_options=options)
 
-driver = webdriver.Chrome("/home/gibi/PycharmProjects/kaplan/chromedriver", chrome_options=options)
+driver = webdriver.Chrome("/home/gibi/PycharmProjects/kaplan/chromedriver")
 
-url = "https://www.kaplanpathways.com/degree-finder/#/search-result?status=1&prefer-study=1&institution_short_name" \
-      "=Arizona-State-University-Downtown-Phoenix-Campus&institution_short_name=Arizona-State-University-Lake-Havasu" \
-      "-Campus&subject_area_name=&university=38,39 "
+url = "https://www.kaplanpathways.com/degree-finder/#/search-result?status=1&prefer-study=1&institution_short_name=Arizona-State-University-Downtown-Phoenix-Campus&institution_short_name=Arizona-State-University-Lake-Havasu-Campus&subject_area_name=&university=38,39"
 
 driver.maximize_window()
 # Open url in browser
@@ -42,24 +40,53 @@ except:
     pass
 
 # Get complete course list
-course_list = driver.find_elements_by_xpath("//*[@class='wrap-result'][1]")
+course_list = driver.find_elements_by_xpath("//*[@class='wrap-result']")
+print("Total courses: ", len(course_list))
 
+college = ""
+degree = ""
+intakes = ""
+fee = ""
 # loop through each course
+i = 1
 for course in course_list:
     try:
+        print("Current check: ", i)
+        i += 1
         time.sleep(2)
         # Scroll to each element to get the trigger
         actions = ActionChains(driver)
         actions.move_to_element(course).perform()
         # click in the course to expand
         course.click()
-        c_name = course.find_element_by_xpath('./div/div/p[2]').text
-        u_name = course.find_element_by_xpath('./div/div/p[2]').text
-        college = driver.find_element_by_xpath('//*[@class="degree-info"]/p/span').text
+        time.sleep(1)
 
-        print(c_name)
+        c_name = course.find_element_by_xpath('./div/div/p[2]').text
+        u_name = course.find_element_by_xpath('./div/div[3]/p').text
+        source_url = driver.find_element_by_xpath("//*[@class='link-more']").get_attribute("href")
+
+        d_info = driver.find_elements_by_xpath('//*[@class="degree-info"]/p')
+        for info in d_info:
+            if "Academic" in info.text:
+                college = info.find_element_by_tag_name("span").text
+            if "duration" in info.text:
+                degree = info.find_element_by_tag_name("span").text
+            if "intake" in info.text:
+                intakes = info.find_element_by_tag_name("span").text
+            if "fee" in info.text:
+                fee = info.find_element_by_tag_name("span").text
+
+        print("c_name: ", c_name)
+        print("u_name: ", u_name)
+        print("college: ", college)
+        print("degree: ", degree)
+        print("intakes: ", intakes)
+        print("fee: ", fee)
+        print("source_url: ", source_url)
+
+        print("_" * 30)
 
         # Click on the course again to close it.
         course.click()
-    except:
-        print("⛑ Element is not clickable ")
+    except Exception as e:
+        print(e)
